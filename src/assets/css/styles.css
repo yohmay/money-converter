@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+body::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  content: "";
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  opacity: 0.5;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #a9a9a9;
+}
+
+.button-home {
+  padding: 0px 30px;
+  border: 0;
+
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #a9a9a9;
+}
+
+.button-description {
+  padding: 0px 30px;
+  border: 0;
+
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #a9a9a9;
+}
+
+.title-main {
+  padding: 10px 30px;
+
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #a9a9a9;
+}
+
+.icon-wallet {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.icon-wallet img {
+  max-height: 100%;
+  flex-shrink: 0;
+}
+
+.content-box {
+  align-self: center;
+  padding: 15px 15px;
+  width: 35%;
+  margin-top: 5%;
+  background-color: #a9a9a9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.conversion-value {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #696969;
+
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #c0c0c0;
+}
+
+.select-option {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #696969;
+
+  text-align: justify;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #c0c0c0;
+}
+
+.result-value {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #696969;
+
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #c0c0c0;
+}
+
+.button-converter {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dcdcdc;
+
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif monospace;
+
+  color: #000000;
+  background-color: #dcdcdc;
+}
