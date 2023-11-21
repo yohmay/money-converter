@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-  </head>
-  <body>
-	<nav class="container-main">
 
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
 
-  </nav>
-  </body>
+<body>
+  <header>
+    <nav class="container-menu">
+      <button class="button-home" type="button">Home</button>
+      <span class="title-main">Currency Converter</span>
+      <img class="icon-wallet" src="assets/images/icon/wallet.svg" />
+      <button class="button-description" type="button">About</button>
+    </nav>
+  </header>
+
+  <main class="content-box">
+    <div class="container">
+      <input class="conversion-value" placeholder="Insira o valor para conversão" />
+
+      <select name="select" class="select-option">
+        <option class="conversion-option" value="dollar-converter">Dólar Americano</option>
+        <option class="conversion-option" value="euro-converter">Euro</option>
+        <option class="conversion-option" value="real-converter">Real Brasileiro</option>
+        <option class="conversion-option" value="iene-converter">Iene Japonês</option>
+      </select>
+
+      <span class="result-value" placeholder=""></span>
+
+      <button class="button-converter" type="button">Conversão</button>
+    </div>
+  </main>
+</body>
+
 </html>
